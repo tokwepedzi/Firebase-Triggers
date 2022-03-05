@@ -1,0 +1,69 @@
+{
+  "rules": {
+    "Entry point":{
+    ".read":"true",
+      ".write":"true",
+    },
+       "Image identifier":{
+    ".read":"auth != null",
+      ".write":"auth != null",
+    },
+       "Super details":{
+    ".read":"auth != null",
+      ".write":"auth != null",
+    },
+       "Dishes":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Apps":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Lists":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Overdue dishes":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Overdue added dishes":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Default dishes":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Patrons":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Added patrons":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Patron payments":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Printables":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Running records":{
+      ".read":"true",
+        ".write":"auth != null",
+    },
+       "Extended Users":{
+      ".read":"auth != null",
+        ".write":"auth != null",
+    },
+       "Support details":{
+    ".read":"true",
+      ".write":"true",
+    }
+     
+  }
+}
